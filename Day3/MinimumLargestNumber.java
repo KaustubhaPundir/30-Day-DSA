@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class Main {
-    // Placeholder function for user logic
     public static int findLargestNumber(List<Integer> arr) {
         int []smallest={arr.get(0),Integer.MAX_VALUE};
         for (int i=0;i<arr.size();i++){
