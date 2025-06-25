@@ -11,7 +11,7 @@ public class Main {
                     flowers_count++;
                 }
             }
-            // System.out.println(flowers_count);
+
             for (int j=0;j<n2;j++){
                 if (flowers.get(i)==herbs.get(j)){
                     herbs_count++;
