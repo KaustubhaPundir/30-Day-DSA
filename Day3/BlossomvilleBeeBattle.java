@@ -17,7 +17,7 @@ public class Main {
                     herbs_count++;
                 }
             }
-            // System.out.println(herbs_count);
+
             if(flowers_count>herbs_count){
                 result.add(flowers.get(i));
             }herbs_count=0;
