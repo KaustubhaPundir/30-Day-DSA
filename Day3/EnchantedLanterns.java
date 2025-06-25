@@ -7,7 +7,7 @@ public class Main {
         int wish=0;
         int temp=0;
         for (int i=0;i<N;i++){
-            for(int j=i;j<N;j++){//max
+            for(int j=i;j<N;j++){
                 if (temp<A[j]){
                     temp=A[j];
                 }
