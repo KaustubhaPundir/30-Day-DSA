@@ -14,7 +14,7 @@ public class Main {
                 max=temp;
             }
             temp=A[0];
-            for(int j=i;j>=0;j--){//min
+            for(int j=i;j>=0;j--){
                 if (temp>A[j]){
                     temp=A[j];
                 }
