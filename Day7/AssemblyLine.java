@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Main {
     public static void findStudentPositions(int n, int[] heights, int k, int[] queries, int[] results) {
-        // Write your logic here.
         for (int i=0;i<queries.length;i++){
             for(int j=0;j<heights.length;j++){
                 if(heights[j]>=queries[i]){
