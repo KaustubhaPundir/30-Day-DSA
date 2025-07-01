@@ -10,8 +10,6 @@ public class Main {
         }
         System.out.println(peakIndexInMountainArray(arr));
     }
-
-    // Function declaration
     public static int peakIndexInMountainArray(int[] A) {
         int req_class=0;
         for(int i=0;i<A.length;i++){
